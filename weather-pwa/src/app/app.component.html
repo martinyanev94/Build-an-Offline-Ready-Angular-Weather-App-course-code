@@ -1,0 +1,18 @@
+<main class="weather-shell">
+  <h1>Weather now</h1>
+  <form (ngSubmit)="onSearch()">
+    <label for="city">City</label>
+    <div class="search-row">
+      <input id="city" name="city" [(ngModel)]="city" placeholder="Paris" autocomplete="off" />
+      <button type="submit">Search</button>
+    </div>
+  </form>
+
+  <p *ngIf="loading" class="status">Loading weather...</p>
+  <p *ngIf="error" class="error" role="alert">{{ error }}</p>
+  <section *ngIf="result as weather" class="result" aria-live="polite">
+    <h2>{{ weather.city }}, {{ weather.country }}</h2>
+    <p class="temperature">{{ weather.temperatureC }} °C</p>
+    <p>Weather code: {{ weather.weatherCode }}</p>
+  </section>
+</main>
