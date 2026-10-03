@@ -1,0 +1,6 @@
+.weather-shell { max-width:  thirtyrem; margin: 4rem auto; padding: 0 1rem; font: 1rem system-ui, sans-serif; }
+form { display: flex; gap: .5rem; }
+input { flex: 1; padding: .7rem; }
+button { padding: .7rem 1rem; }
+.weather-card { margin-top: 2rem; padding: 1.5rem; border-radius: .75rem; background: #e8f1ff; }
+.temperature { font-size: 2rem; font-weight: 700; }
