@@ -1,0 +1,16 @@
+.weather-shell {
+  max-width:  thirtyrem;
+  margin: 4rem auto;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+  border: 1px solid #d8dee9;
+  border-radius: 1rem;
+}
+
+.search-row { display: flex; gap: .5rem; }
+input { flex: 1; padding: .7rem; }
+button { padding: .7rem 1rem; cursor: pointer; }
+.status { color: #725000; }
+.error { color: #a31212; }
+.result { margin-top: 2rem; }
+.temperature { font-size: 3rem; margin: .5rem 0; }
