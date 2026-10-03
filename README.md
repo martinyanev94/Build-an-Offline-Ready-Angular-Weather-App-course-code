@@ -1,0 +1,2 @@
+# Build-an-Offline-Ready-Angular-Weather-App-course-code
+Build an Angular weather app that remains useful offline and handles real-world request states clearly. This focused course walks through creating a production-ready Angular PWA with weather API integration, service-worker caching, and user-controlled update notifications. Across five practical lessons, you’ll learn how to: - Create a typed Weather
