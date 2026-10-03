@@ -1,0 +1,4 @@
+body { margin: 0; font-family: system-ui, sans-serif; color: #17202a; }
+main { max-width: 42rem; margin: 4rem auto; padding: 0 1rem; }
+.update-banner { display: flex; gap: 1rem; align-items: center; justify-content: center; padding: .75rem 1rem; background: #166534; color: white; }
+button { border: 0; border-radius: .25rem; padding: .45rem .8rem; cursor: pointer; }
