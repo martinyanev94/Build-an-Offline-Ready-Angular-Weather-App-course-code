@@ -1,0 +1,9 @@
+<div class="update-banner" *ngIf="updateReady" role="status">
+  <span>A new version is ready.</span>
+  <button type="button" (click)="refreshForUpdate()">Refresh</button>
+</div>
+
+<main>
+  <h1>Weather dashboard</h1>
+  <p>Search for a city to view current weather.</p>
+</main>
